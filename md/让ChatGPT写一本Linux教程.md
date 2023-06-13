@@ -272,9 +272,9 @@ for chapter_inx,chapter in enumerate(super_eval(chapters)):
 ```
 
 我们来大致看一下chatgpt写的内容：
-![img.png](img.png)
+![img.png](../images/book/img_4.png)
 
 感觉很全面。
 
 再看一下里面的内容：
-![img_1.png](img_1.png)
+![img_1.png](../images/book/img_5.png)
