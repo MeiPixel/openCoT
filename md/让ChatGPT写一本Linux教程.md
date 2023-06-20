@@ -267,7 +267,7 @@ for chapter_inx,chapter in enumerate(super_eval(chapters)):
         for  write_info in super_eval(write_infos):
             # 开始书写
             content = llm(prompt.format(directory_str,f'\t第{subsection_name_inx+1}节:{subsection_name}',write_info['part'],write_info['content']))
-            with open(f"F:/开源课程/book/第{chapter_inx+1}章 {chapter['chapter_name']} 第{subsection_name_inx+1}节 {subsection_name}.md",'a',encoding='utf8') as f:
+            with open(f"第{chapter_inx+1}章 {chapter['chapter_name']} 第{subsection_name_inx+1}节 {subsection_name}.md",'a',encoding='utf8') as f:
                 f.write(content+'\n')
 ```
 
@@ -278,3 +278,7 @@ for chapter_inx,chapter in enumerate(super_eval(chapters)):
 
 再看一下里面的内容：
 ![img_1.png](../images/book/img_5.png)
+
+最后内容在
+
+https://github.com/MeiPixel/openCoT/tree/main/book
